@@ -1,0 +1,27 @@
+[2026-05-16 13:38:47,904] multiqc                                            [DEBUG  ]  This is MultiQC v1.21
+[2026-05-16 13:38:47,904] multiqc                                            [DEBUG  ]  Command used: /usr/bin/multiqc qc -o qc
+[2026-05-16 13:38:48,709] multiqc                                            [WARNING]  MultiQC Version v1.34 now available!
+[2026-05-16 13:38:48,709] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.34, released 2026-04-21
+[2026-05-16 13:38:48,709] multiqc                                            [DEBUG  ]  Working dir : /home/quintelav/projects/tuta_rnaseq
+[2026-05-16 13:38:48,709] multiqc                                            [DEBUG  ]  Template    : default
+[2026-05-16 13:38:48,709] multiqc                                            [DEBUG  ]  Running Python 3.14.4 (main, Apr  8 2026, 04:02:31) [GCC 15.2.0]
+[2026-05-16 13:38:48,709] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, megahit, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, seqwho
+[2026-05-16 13:38:48,710] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmppmd84kbc
+[2026-05-16 13:38:48,710] multiqc                                            [INFO   ]  Search path : /home/quintelav/projects/tuta_rnaseq/qc
+[2026-05-16 13:38:48,761] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 26] // [skipped_no_match: 2]
+[2026-05-16 13:38:48,767] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2026-05-16 13:38:48,774] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
+[2026-05-16 13:38:48,774] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_fastqc.txt
+[2026-05-16 13:38:48,831] multiqc.plots.plotly.heatmap                       [DEBUG  ]  Heatmap size: 495x200, px per element: 45.00x100.00
+[2026-05-16 13:38:48,833] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2026-05-16 13:38:48,833] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_software_versions.txt
+[2026-05-16 13:38:48,837] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2026-05-16 13:38:48,837] multiqc                                            [DEBUG  ]  Compressing plot data
+[2026-05-16 13:38:48,858] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_data.json
+[2026-05-16 13:38:48,858] multiqc                                            [INFO   ]  Report      : qc/multiqc_report.html
+[2026-05-16 13:38:48,859] multiqc                                            [INFO   ]  Data        : qc/multiqc_data
+[2026-05-16 13:38:48,859] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmppmd84kbc/multiqc_data' to '/home/quintelav/projects/tuta_rnaseq/qc/multiqc_data'
+[2026-05-16 13:38:48,860] multiqc                                            [DEBUG  ]  Full report path: /home/quintelav/projects/tuta_rnaseq/qc/multiqc_report.html
+[2026-05-16 13:38:48,875] multiqc                                            [ERROR  ]  Could not include file 'assets/js/packages/jszip.min.js': [Errno 2] No such file or directory: '/tmp/tmppmd84kbc/assets/js/packages/jszip.min.js'
+[2026-05-16 13:38:48,875] multiqc                                            [ERROR  ]  Could not include file 'assets/js/packages/plotly-2.27.0.min.js': [Errno 2] No such file or directory: '/tmp/tmppmd84kbc/assets/js/packages/plotly-2.27.0.min.js'
+[2026-05-16 13:38:48,905] multiqc                                            [INFO   ]  MultiQC complete
