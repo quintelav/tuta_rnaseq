@@ -1,0 +1,20 @@
+# Ignorar arquivos de dados biológicos pesados
+reference/
+data/
+*.zip
+*.fna
+*.gff
+*.gtf
+*.gz
+*.sra
+*.fastq
+*.fq
+
+# Ignorar o ambiente do Conda se estiver na pasta
+.conda/
+miniconda3/
+
+# Permitir arquivos de configuração e scripts
+!.gitignore
+!*.sh
+!*.py
