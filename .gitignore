@@ -1,0 +1,30 @@
+# Raw sequencing data
+raw_data/
+
+# Salmon outputs
+quant/
+
+# Temporary files
+tmp/
+logs/
+
+# Conda
+*.conda
+.env
+env/
+
+# Indexes
+reference/salmon_index/
+
+# FastQC / MultiQC
+multiqc_report.html
+multiqc_data/
+*_fastqc.*
+
+# Misc
+*.log
+.DS_Store
+reference/*.zip
+raw_data/
+quant/
+reference/salmon_index/
