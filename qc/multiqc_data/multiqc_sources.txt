@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR35985965_1	/home/quintelav/projects/tuta_rnaseq/qc/SRR35985965_1_fastqc.zip
-FastQC	all_sections	SRR35985965_2	/home/quintelav/projects/tuta_rnaseq/qc/SRR35985965_2_fastqc.zip
